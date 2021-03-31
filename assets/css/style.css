@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+}
+
+.jumbotron {
+    color: white;
+    background-color: darkslategrey;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 10px;
+}
+
+button {
+    background-color: white;
+    color: grey;
+    border: 1px grey;
+    font-size: 20px;
+}
+.input-group-text {
+    background-color: blue;
+    color: white;
+}
+.citysearchcard {
+    background-color: rgb(235, 233, 233);
+    height: 100vh;
+    float: left;
+}
+
+.forecast {
+    height: 100vh;
+}
+
+.daycityinfo {
+    margin: 2px;
+    padding: 10px;
+    height: 55%;
+    border: 1px black solid;
+}
+
+.fivedayforecast {
+    padding: 10px;
+    height: 45%;
+}
+
+li {
+    padding: 5px;
+    font-size: 20px;
+}

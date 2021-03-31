@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>The Weather Outside is Weather</title>
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container1">
+            <h1 class="weatherD">Weather Dashboard</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="citysearchcard col-12 col-md-4 col-xl-3">
+                <h4>Search for a City:</h4>
+                <div class="input-group mb-3 d-flex justify-content-left">
+                    <input type="text" class="form-control" placeholder="City"
+                        aria-label="City" aria-describedby="basic-addon2">
+                    <button class="input-group-text" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></button>
+                </div>
+                <div class="searchhistory list-group">
+                    <button>Search History</button>
+                </div>
+            </div>
+            <div class="forecast col-12 col-md-8 col-xl-9">
+                <div class="daycityinfo row">
+                    <div> 
+                        <h2><span class="cityname"></span> <span class="currentdate">today's date </span><span class="weathericon"> icon </span></h2>
+                            <ul>
+                                <li>Temperature: <span class="temp"></span></li>
+                                <li>Humidity: <span class="humiditypercent"></span></li>
+                                <li>Wind Speed: <span class="windspeed"></span></li>
+                                <li>UV Index: <span class="uvindex"></span></li>
+                            </ul>
+                    </div>   
+                </div>
+                <div class="row fivedayforecast">
+                    <h2>5-Day Forecast:</h2>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/momentjs/2.13.0/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
