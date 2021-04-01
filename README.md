@@ -14,7 +14,7 @@ Upon entering the city name into the search bar and hitting the search button th
     -5 Day Forecast.
 
     -City Name is appended to search history.
-    -Any city name listd in search history is clickable which then displays weather info for that city.
+    -Any city name listed in search history is clickable which then displays weather info for that city.
 
 
 # Usage
