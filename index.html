@@ -21,30 +21,65 @@
             <div class="citysearchcard col-12 col-md-4 col-xl-3">
                 <h4>Search for a City:</h4>
                 <div class="input-group mb-3 d-flex justify-content-left">
-                    <input type="text" class="form-control" placeholder="City"
-                        aria-label="City" aria-describedby="basic-addon2">
-                    <button class="input-group-text" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                      </svg></button>
+                    <input type="text" class="form-control" placeholder="City" aria-label="City"
+                        aria-describedby="basic-addon2">
+                    <button class="input-group-text" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></button>
                 </div>
                 <div class="searchhistory list-group">
-                    <button>Search History</button>
                 </div>
             </div>
             <div class="forecast col-12 col-md-8 col-xl-9">
                 <div class="daycityinfo row">
-                    <div> 
-                        <h2><span class="cityname"></span> <span class="currentdate">today's date </span><span class="weathericon"> icon </span></h2>
-                            <ul>
-                                <li>Temperature: <span class="temp"></span></li>
-                                <li>Humidity: <span class="humiditypercent"></span></li>
-                                <li>Wind Speed: <span class="windspeed"></span></li>
-                                <li>UV Index: <span class="uvindex"></span></li>
-                            </ul>
-                    </div>   
+                    <div>
+                        <h2><span class="cityname"> </span> <span class="currentdate">today's date</span><img
+                                id="weathericon" src=""></h2>
+                        <ul>
+                            <li class="list1">Temperature: <span class="temp"></span><span>°F</span></li>
+                            <li class="list1">Humidity: <span class="humiditypercent"></span><span>%</span></li>
+                            <li class="list1">Wind Speed: <span class="windspeed"></span><span>MPH</span></li>
+                            <li class="list1">UV Index: <span class="uvindex"></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row title">
+                    <h2>5-Day Forecast:</h2>
                 </div>
                 <div class="row fivedayforecast">
-                    <h2>5-Day Forecast:</h2>
+                    <div class="col-sm rounded day">
+                        <h4 class="date" id="1"></h4>
+                        <p><img class="justify-content-center" id="icon1" src=""></p>
+                        <p class="fs-6">Temp: <span class="temp1"></span><span>°F</span></p>
+                        <p class="fs-6">Humidity: <span class="humidity1"></span>%</p>
+                    </div>
+                    <div class="col-sm rounded day">
+                        <h4 class="date" id="2"></h4>
+                        <p><img class="justify-content-center" id="icon2" src=""></p>
+                        <p class="fs-6">Temp: <span class="temp2"></span><span>°F</span></p>
+                        <p class="fs-6">Humidity: <span class="humidity2"></span>%</p>
+                    </div>
+                    <div class="col-sm rounded day">
+                        <h4 class="date" id="3"></h4>
+                        <p><img class="justify-content-center" id="icon3" src=""></p>
+                        <p class="fs-6">Temp: <span class="temp3"></span><span>°F</span></p>
+                        <p class="fs-6">Humidity: <span class="humidity3"></span>%</p>
+                    </div>
+                    <div class="col-sm rounded day">
+                        <h4 class="date" id="4"></h4>
+                        <p><img class="justify-content-center" id="icon4" src=""></p>
+                        <p class="fs-6">Temp: <span class="temp4"></span><span>°F</span></p>
+                        <p class="fs-6">Humidity: <span class="humidity4"></span>%</p>
+                    </div>
+                    <div class="col-sm rounded day">
+                        <h4 class="date" id="5"></h4>
+                        <p><img class="justify-content-center" id="icon5" src=""></p>
+                        <p class="fs-6">Temp: <span class="temp5"></span><span>°F</span></p>
+                        <p class="fs-6">Humidity: <span class="humidity5"></span>%</p>
+                    </div>
                 </div>
             </div>
         </div>

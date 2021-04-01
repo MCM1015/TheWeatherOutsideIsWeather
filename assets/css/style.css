@@ -21,6 +21,22 @@ button {
     border: 1px grey;
     font-size: 20px;
 }
+
+li {
+    list-style: none;
+}
+.red {
+    background-color: red;
+    padding: 2px;
+    color: white;
+}
+
+.day {
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
 .input-group-text {
     background-color: blue;
     color: white;
@@ -38,16 +54,18 @@ button {
 .daycityinfo {
     margin: 2px;
     padding: 10px;
-    height: 55%;
     border: 1px black solid;
 }
-
+.title {
+    padding: 10px;
+    
+}
 .fivedayforecast {
     padding: 10px;
-    height: 45%;
 }
 
-li {
+.list1 {
     padding: 5px;
     font-size: 20px;
+    list-style: none;
 }

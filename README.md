@@ -31,6 +31,17 @@ https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
 https://stackoverflow.com/questions/20791533/search-history-with-localstorage-variable-in-html
 
+https://www.w3schools.com/jsref/prop_img_src.asp
+
+https://www.w3schools.com/jquery/jquery_dom_add.asp
+
+https://www.raymondcamden.com/2012/07/13/LocalStorage-Example-Storing-previous-searches
+
+https://www.w3schools.com/jsref/met_document_createelement.asp
+
+https://openweathermap.org/api
+
+https://www.w3schools.com/icons/
 
 
 # License
