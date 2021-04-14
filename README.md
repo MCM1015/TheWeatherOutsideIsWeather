@@ -47,3 +47,6 @@ https://www.w3schools.com/icons/
 # License
 
 The [MIT](LICENSE) license was chosen for this project. 
+
+# Contact Me
+Email: Mary.C.McClernan@gmail.com
